@@ -74,6 +74,27 @@ body {
   outline: 0 !important;
 }
 
+/* MINHAS CLASSES */
+
+.margem-top{
+  margin: auto;
+}
+
+.borda-video{
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.video-align{
+  margin: auto;
+}
+
+.text-video{
+  margin-top: 20px;
+}
+
+/* FIM MINHAS CLASSES */
+
 hr {
   box-sizing: content-box;
   height: 0;

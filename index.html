@@ -37,13 +37,13 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto my-2 my-lg-0">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">Sobre nós</a>
+            <a class="nav-link js-scroll-trigger" href="#about">Sobre Nós</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#services">Recursos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+            <a class="nav-link js-scroll-trigger" href="#portfolio">Aprenda</a>
           </li>
           <li class="nav-item">
             <a class="js-scroll-trigger btn btn-primary btn-xl" href="#contact">Testar Agora</a>
@@ -122,10 +122,10 @@
   </section>
 
   <!-- Portfolio Section -->
-  <section id="portfolio">
-    <div class="container-fluid p-0">
+  <section id="portfolio" class="bg-primary">
+    <div class="container-fluid p-3">
       <div class="row no-gutters">
-        <div class="col-md-6 col-sm-12">
+        <div class="col-md-6 col-sm-12 p-2 video-align">
           <!-- <a class="portfolio-box" href="img/portfolio/fullsize/1.jpg">
             <img class="img-fluid" src="img/portfolio/thumbnails/1.jpg" alt="">
             <div class="portfolio-box-caption">
@@ -203,10 +203,25 @@
             </div>
           </a>
         </div> -->
-          Vídeo
+          <!-- 16:9 aspect ratio -->
+          <div class="embed-responsive embed-responsive-16by9 borda-video">
+            <iframe width="460" height="315" src="https://www.youtube.com/embed/HTnA6TtuQL8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
         </div>
-        <div class="col-md-6 col-sm-12">
-          
+        <div class="col-md-6 col-sm-12 p-5 text-center margem-top">
+          <div class="container">
+            <div> 
+              <div class="col-md 12 col-sm-12 text-white h1">
+                Lorem Ipsum
+              </div>
+              <hr class="divider light my-4">
+              <div class="col-md 12 col-sm-12 text-white text-video">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer finibus leo urna,
+                sed volutpat nibh pretium ac. 
+                Donec non vehicula nisl. Fusce semper id nulla et aliquam. 
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -245,7 +260,7 @@
   </section> --> 
 
   <!-- Footer -->
-  <footer class="bg-light py-5">
+  <footer class="bg-black py-5">
     <div class="container">
       <div class="small text-center text-muted">Copyright &copy; 2019 - Start Bootstrap</div>
     </div>
